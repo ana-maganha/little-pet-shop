@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Little Pet Shop - Agendamento</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="icon" type="image/png" href="imagens/unnamed.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!--ínicio-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="imagens/Image.jpeg" alt="logo do site" />
+        </a>
+    </header>
+    <!--fim -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="produtos.html">Catálogo</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+
+    <!--Conteúdo do site (container)-->
+    <div id="container">
+        
+
+        <div id="form_container">
+            
+            <h3>Realize seu agendamento aqui!</h3>
+            <form id="agendamento" action="#">
+
+                <div id="bloco1">
+
+                    <div class="frm-agendamento ">
+                        <p>Nome do seu pet</p>
+                        <input class="frm" type="text" placeholder="Digite o nome do seu pet" required>
+                        <p>Raça do pet</p>
+                        <input class="frm" type="text" placeholder="Digite a raça do pet" required>
+                        <p>Responsável pelo pet</p>
+                        <input class="frm" type="text" placeholder="Digite seu nome completo" required>
+                        <p>Rua</p>
+                        <input class="frm" type="text" placeholder="Digite o nome da sua rua" required>
+                    </div>
+
+                    <div class="frm-agendamento ">
+                        <p>Espécie</p>
+                        <input class="frm" type="text" placeholder="Digite a espécie do pet" required>
+                        <p>Peso</p>
+                        <input class="frm" type="text" placeholder="G/KG">
+                        <p>Telefone</p>
+                        <input class="frm" type="tel" placeholder="(99) 99999-9999" required>
+                        <p>Bairro</p>
+                        <input class="frm" type="text" placeholder="Digite o nome do seu bairro" required>
+                    </div>
+
+                    <div class="frm-agendamento ">
+                        <p>Porte do pet</p>
+                        <select id="frm-tipos">
+                            <option value="pequeno">Pequeno</option>
+                            <option value="medio">Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+                        <p>Especificações</p>
+                        <input class="frm" type="text" placeholder="Alergias, comportamento etc...">
+                        <p>Transporte</p>
+                        <select id="frm-tipos">
+                            <option value="pequeno">Retirada e Entrega</option>
+                            <option value="medio">Apenas Retirada</option>
+                            <option value="grande">Apenas Entrega</option>
+                        </select>
+                        <p>Número</p>
+                        <input class="frm" type="text" placeholder="Digite o número da sua residência" required>
+                    </div>
+
+                </div>
+
+                <div id="bloco2" class="coluna">
+
+                    <div class="linha">
+                        <div>
+                            <p>Data</p>
+                            <input class="frm" type="date" placeholder="Digite o nome do seu pet" required>
+                        </div>
+                        <div>
+                            <p>Hora</p>
+                            <input class="frm" type="time" placeholder="Digite a raça do pet" required>
+                        </div>
+                    </div>
+
+                    <div id="frm-buttons">
+                        <button id="botao-enviar-ag" type="submit" formaction="#">Agendamento</button>
+                    </div>
+
+                </div>
+        </div>
+
+        </form>
+
+    </div>
+
+    </div>
+
+    <footer>
+        <h2>
+            Little Pet Shop © - Todos os direitos reservados
+            <h2>
+    </footer>
+
+</body>
+
+</html>
